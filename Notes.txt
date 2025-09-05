@@ -1,0 +1,16 @@
+Microservices architecture: An approach where an application is built as a collection of small, independent services that communicate over APIs. Each service focuses on a specific business function and can be developed, deployed, and scaled independently.
+
+Monolithic architecture: An approach where an application is built as a single, unified unit. All components (UI, business logic, data access) are tightly coupled and run as one process, making development and deployment simpler but less flexible for scaling and updates.
+
+//to generate package.json use command 
+npm init -y
+
+//to run server
+npx nodemon app.js
+
+installed npm autocannon dependency
+npm autocannon: A command-line tool used to benchmark and test the performance of HTTP servers by generating high-load requests.
+
+morgan is an HTTP request logger middleware for Node.js (commonly used with Express.js).
+
+express-http-proxy is an Express middleware that forwards incoming requests to another server (acting as a proxy).
